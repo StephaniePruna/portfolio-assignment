@@ -1,1 +1,38 @@
-# portfolio-assignment
+# Portfolio-assignment
+
+### Website Link:
+
+### GitHub Repo Link:
+https://github.com/Victoriablu/portfolio-assignment
+
+### Purpose:
+A website that shows my professional portfolio including:
+1. Home - Welcome message and navigation Links
+2. About Me - Profile photo, information about me, link to resume, education list and skills list.
+3. Blog -  Links to blog posts with pictures and publish dates.
+4. Contact - All my contact details including Facebook, LinkedIn, Twitter and Email.
+
+### Functionality
+All pages are accessed via a navigation bar at the top. Home button takes user back to the home page. Links for Blog articles and social media profiles open in a new tab.
+
+### Features
+1. Navigation Bar
+2. Link to Resume
+3. Blog links with pictures in grid layout
+4. Social Media links with icons
+5. Background Image on each page
+
+### SiteMap
+![Site Map](SiteMap.png)
+
+### Screenshots
+
+### Target Audience
+Potential employers, Recruitement Agencies and Clients wishing to view my profile. 
+
+### Tech Stack
+HTML5
+CSS
+Responsive Web Design
+Wordpress (Blog Posts)
+Canva (Design and Images)

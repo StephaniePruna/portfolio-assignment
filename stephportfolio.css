@@ -134,8 +134,9 @@
    .profile-pic {
     display: block;
     margin: 0 auto;
-    height: 200px;
     width: 200px;
+    max-width: 100%;
+    height: auto;
   }
   
    .about {
@@ -143,8 +144,8 @@
     flex-direction: column;
     text-align: center;
     margin-top: 70px;
-    width: 100%;
-    height: 105vh;
+    max-width: 100%;
+    height: auto;
     font-size: 3rem;
     background: var(--main-blue);
   }
@@ -160,6 +161,8 @@
     justify-content: center;
     font-weight: 200;
     font-style: italic;
+    max-width: 100%;
+    height: auto;
     color: var(--main-white);
     
   }
@@ -171,6 +174,8 @@
     text-align: center;
     font-weight: 200;
     font-style: italic;
+    max-width: 100%;
+    height: auto;
     color: var(--main-white);
     
 }
@@ -180,10 +185,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 100%;
+  height: auto;
   width: 100%;
-  height: 20vh;
   
 }
+
+.education > h3 {
+  font-family: 'Pacifico', cursive;
+}
+
 .skill-list {
       display: flex;
       flex-direction: column;
@@ -192,6 +203,8 @@
       font-size: 3rem;
       font-weight: 200;
       font-style: italic;
+      max-width: 100%;
+      height: auto;
       color: var(--main-white);
   }
 
@@ -201,9 +214,15 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 25vh; 
-    
+    height: auto; 
+    max-width: 100%;
+    margin-bottom: 20px;
   }
+
+  .skill-set > h3 {
+    font-family: 'Pacifico', cursive;
+  }
+  
   .resume {
     display: flex;
     flex-direction: column;
@@ -212,6 +231,8 @@
     font-size: 3rem;
     font-weight: 200;
     font-style: bold;
+    max-width: 100%;
+    height: auto;
 }
 
   /* Contact Me */
@@ -251,39 +272,47 @@
 
 .facebook {
   display: inline-block;
-  height: 100px;
+  max-width: 100%;
+  height: auto;
   width: 100px;
   justify-content: flex-start;
-  text-align: center;
 }
 
 .github {
   display: inline-block;
-  height: 100px;
+  max-width: 100%;
+  height: auto;
   width: 100px;
   justify-content: center;
-  text-align: center;
 }
 
 .twitter {
   display: inline-block;
-  height: 100px;
+  max-width: 100%;
+  height: auto;
   width: 100px;
   justify-content: center;
-  text-align: center;
+}
+
+.linked-in {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  width: 100px;
+  justify-content: center;
 }
 
 .email {
   display: inline-block;
-  height: 100px;
+  max-width: 100%;
+  height: auto;
   width: 100px;
   justify-content: flex-end;
-  text-align: center;
 }
 
 /* Blog Section */
 
-.blog-section-header {
+.blog-section > h2 {
   display: flex;
   justify-content: center;
   font-family: 'Pacifico', cursive;
@@ -293,11 +322,13 @@
   background-image: url("Background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 200vh;
+  height: 100vh;
+  max-width: 100%;
 }
 
 .blog-grid {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
   align-content: space-between;
