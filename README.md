@@ -1,7 +1,7 @@
 # Portfolio-assignment
 
 ### Website Link:
-steph-portfolio.netlify.com
+https://steph-portfolio.netlify.com 
 
 ### GitHub Repo Link:
 https://github.com/Victoriablu/portfolio-assignment
