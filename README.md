@@ -13,12 +13,12 @@ A website that shows my professional portfolio including:
 4. Contact - All my contact details including Facebook, LinkedIn, Twitter and Email.
 
 ### Functionality
-All pages are accessed via a navigation bar at the top. Home button takes user back to the home page. Links for Blog articles and social media profiles open in a new tab.
+All pages are accessed via a navigation bar at the top which is on each page. All links to external sites open in a new tab. Blog links open to selected content on blog post page. 
 
 ### Features
 1. Navigation Bar
 2. Link to Resume
-3. Blog links with pictures in grid layout
+3. Blog links with pictures in flex box layout
 4. Social Media links with icons
 5. Background Image on each page
 
@@ -35,8 +35,8 @@ All pages are accessed via a navigation bar at the top. Home button takes user b
 Potential employers, recruitement agencies and clients wishing to view my profile. 
 
 ### Tech Stack
-HTML5
-CSS
-Responsive Web Design
-Wordpress (Blog Posts)
-Canva (Design and Images)
+1. HTML5
+2. CSS
+3. Responsive Web Design
+4. Wordpress (Blog Posts)
+5. Canva (Design and Images)
