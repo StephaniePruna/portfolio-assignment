@@ -250,8 +250,8 @@
     background-size: cover;
 }
 
-.contact-section-header {
-  margin-top: auto;
+.contact-section-header > h2 {
+  margin-top: 100px;
 }
 
 .contact-links {
