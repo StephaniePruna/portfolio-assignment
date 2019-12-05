@@ -26,9 +26,13 @@ All pages are accessed via a navigation bar at the top. Home button takes user b
 ![Site Map](SiteMap.png)
 
 ### Screenshots
+![Main Page](MainPage.png)
+![About Me](AboutMe.png)
+![Contact](Contact.png)
+![Blog](Blog.png)
 
 ### Target Audience
-Potential employers, Recruitement Agencies and Clients wishing to view my profile. 
+Potential employers, recruitement agencies and clients wishing to view my profile. 
 
 ### Tech Stack
 HTML5
