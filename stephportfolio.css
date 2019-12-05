@@ -73,7 +73,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: var(--main-white);
+    background: var(--main-blue);
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     z-index: 10;
   }
@@ -120,6 +120,7 @@
 
   .welcome-section > h1 {
     font-family: 'Pacifico', cursive;
+    color: var(--main-pink);
     font-size: 8rem;
   }
   
@@ -127,7 +128,7 @@
     font-size: 3rem;
     font-weight: 200;
     font-style: italic;
-    color: var(--main-white);
+    color: var(--main-pink);
   }
   
    /* About me section*/
@@ -153,6 +154,7 @@
   .about > h2 {
     margin-top: 70px;
     font-family: 'Pacifico', cursive;
+    color: var(--main-white);
   }
   
   .info {
@@ -193,6 +195,7 @@
 
 .education > h3 {
   font-family: 'Pacifico', cursive;
+  color: var(--main-white);
 }
 
 .skill-list {
@@ -221,6 +224,7 @@
 
   .skill-set > h3 {
     font-family: 'Pacifico', cursive;
+    color: var(--main-white);
   }
   
   .resume {
@@ -267,6 +271,7 @@
 
 .contact-section-header > h2 {
   font-family: 'Pacifico', cursive;
+  color: var(--main-pink);
   font-size: 6rem;
 }
 
@@ -317,6 +322,7 @@
   justify-content: center;
   font-family: 'Pacifico', cursive;
   margin-top: 70px;
+  color: var(--main-pink);
 }
 .blog-section {
   background-image: url("Background3.png");
@@ -340,6 +346,7 @@
   width: 300px;
   height: 300px;
   text-align: center;
+  color: var(--main-pink);
   }
 
   /* Blog Posts Page */
@@ -348,6 +355,7 @@
     display: flex;
     justify-content: center;
     font-family: 'Pacifico', cursive;
+    color: var (var(--main-pink);
     margin-top: 70px;
   }
 
@@ -366,13 +374,14 @@
     font-style: italic;
     max-width: 100%;
     height: auto;
-    color: var(--main-white);
+    color: var(--main-pink);
   }
 
   .blog-post > h2 {
     display: flex;
     justify-content: center;
     font-family: 'Pacifico', cursive;
+    color: var(--main-pink);
     margin-top: 100px;
   }
 
