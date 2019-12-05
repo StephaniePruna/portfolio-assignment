@@ -38,6 +38,5 @@ Potential employers, recruitement agencies and clients wishing to view my profil
 ### Tech Stack
 1. HTML5
 2. CSS
-3. Responsive Web Design
-4. Wordpress (Blog Posts)
-5. Canva (Design and Images)
+3. Netlify (Deployment)
+4. Canva (Design and Images)
